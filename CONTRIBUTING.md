@@ -32,7 +32,7 @@ You need Node.js 18 or later, plus Claude Code and/or VS Code with GitHub Copilo
 
 Load your working copy instead of the published plugin:
 
-- **Claude Code:** start it with `claude --plugin-dir /path/to/jira-fixer-kit`, or run `/plugin marketplace add /path/to/jira-fixer-kit` and then `/plugin install jira-fixer@jira-fixer-kit`. Run `/reload-plugins` after each change.
+- **Claude Code:** start it with `claude --plugin-dir /path/to/Jira-Ticket-Fixer`, or run `/plugin marketplace add /path/to/Jira-Ticket-Fixer` and then `/plugin install jira-fixer@Jira-Ticket-Fixer`. Run `/reload-plugins` after each change.
 - **VS Code:** run **Chat: Install Plugin from Source** and choose your folder.
 
 ## Testing
@@ -67,4 +67,4 @@ For behavior changes, also work through the relevant scenarios in [TESTING.md](T
 1. Move the **Unreleased** entries in `CHANGELOG.md` under a new version heading with today's date.
 2. Bump `version` in `.claude-plugin/plugin.json`. Installed copies only update when this changes.
 3. Merge to `main`, tag the commit `vX.Y.Z`, and publish a GitHub release with the changelog notes.
-4. Users update with `/plugin marketplace update jira-fixer-kit` (Claude Code) or **Chat: Update Plugins** (VS Code).
+4. Users update with `/plugin marketplace update Jira-Ticket-Fixer` (Claude Code) or **Chat: Update Plugins** (VS Code).

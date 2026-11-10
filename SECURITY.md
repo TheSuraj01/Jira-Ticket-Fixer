@@ -4,11 +4,11 @@ Jira Fixer is a guardrail. Its hooks stop an AI agent from editing files before 
 
 ## Supported versions
 
-Only the latest release receives fixes. Update with `/plugin marketplace update jira-fixer-kit` (Claude Code) or **Chat: Update Plugins** (VS Code).
+Only the latest release receives fixes. Update with `/plugin marketplace update Jira-Ticket-Fixer` (Claude Code) or **Chat: Update Plugins** (VS Code).
 
 ## Reporting a vulnerability
 
-**Please do not open a public issue.** Report privately through GitHub: open the repository's **Security** tab and choose **[Report a vulnerability](https://github.com/TheSuraj01/jira-fixer-kit/security/advisories/new)**.
+**Please do not open a public issue.** Report privately through GitHub: open the repository's **Security** tab and choose **[Report a vulnerability](https://github.com/TheSuraj01/Jira-Ticket-Fixer/security/advisories/new)**.
 
 Please include:
 - The plugin version, your editor and its version, and your OS

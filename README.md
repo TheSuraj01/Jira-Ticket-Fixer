@@ -20,8 +20,8 @@ A hook blocks file edits until you approve, so the agent cannot skip the review 
 Run these two commands inside Claude Code:
 
 ```
-/plugin marketplace add TheSuraj01/jira-fixer-kit
-/plugin install jira-fixer@jira-fixer-kit
+/plugin marketplace add TheSuraj01/Jira-Ticket-Fixer
+/plugin install jira-fixer@Jira-Ticket-Fixer
 ```
 
 Then sign in to Jira: run `/mcp`, choose **atlassian**, and complete the browser sign-in.
@@ -31,26 +31,26 @@ Then sign in to Jira: run `/mcp`, choose **atlassian**, and complete the browser
 ```json
 {
   "extraKnownMarketplaces": {
-    "jira-fixer-kit": {
-      "source": { "source": "github", "repo": "TheSuraj01/jira-fixer-kit" }
+    "Jira-Ticket-Fixer": {
+      "source": { "source": "github", "repo": "TheSuraj01/Jira-Ticket-Fixer" }
     }
   },
   "enabledPlugins": {
-    "jira-fixer@jira-fixer-kit": true
+    "jira-fixer@Jira-Ticket-Fixer": true
   }
 }
 ```
 
 ### GitHub Copilot in VS Code
 
-1. Command Palette → **Chat: Install Plugin from Source** → paste `https://github.com/TheSuraj01/jira-fixer-kit`.
+1. Command Palette → **Chat: Install Plugin from Source** → paste `https://github.com/TheSuraj01/Jira-Ticket-Fixer`.
 2. Command Palette → **MCP: List Servers** → **atlassian** → **Start**, and complete the browser sign-in.
 3. In Settings, make sure agent plugins, agent skills, and hooks are enabled (search for "plugins", "skills", and "hooks").
 
 To receive updates through a marketplace instead, add this to your user settings and install **jira-fixer** from **Chat: Open Customizations → Plugins**:
 
 ```json
-"chat.plugins.marketplaces": ["TheSuraj01/jira-fixer-kit"]
+"chat.plugins.marketplaces": ["TheSuraj01/Jira-Ticket-Fixer"]
 ```
 
 ## Use it

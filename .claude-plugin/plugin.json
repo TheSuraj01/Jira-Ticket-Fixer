@@ -3,10 +3,18 @@
   "displayName": "Jira Fixer",
   "version": "1.3.0",
   "description": "Fix Jira tickets with an investigate, plan, approve, implement, verify workflow. A hook blocks file edits until you approve the plan.",
-  "author": { "name": "Suraj Kumar Yadav" },
-  "homepage": "https://github.com/TheSuraj01/jira-fixer-kit",
-  "repository": "https://github.com/TheSuraj01/jira-fixer-kit",
+  "author": {
+    "name": "Suraj Kumar Yadav"
+  },
+  "homepage": "https://github.com/TheSuraj01/Jira-Ticket-Fixer",
+  "repository": "https://github.com/TheSuraj01/Jira-Ticket-Fixer",
   "license": "MIT",
-  "privacyPolicyUrl": "https://github.com/TheSuraj01/jira-fixer-kit#privacy",
-  "keywords": ["jira", "atlassian", "workflow", "approval", "bugfix"]
+  "privacyPolicyUrl": "https://github.com/TheSuraj01/Jira-Ticket-Fixer#privacy",
+  "keywords": [
+    "jira",
+    "atlassian",
+    "workflow",
+    "approval",
+    "bugfix"
+  ]
 }

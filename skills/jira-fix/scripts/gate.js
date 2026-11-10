@@ -569,7 +569,7 @@ function cmdSelftest() {
   const edit = (filePath) => ({ tool_name: 'replace_string_in_file', tool_input: { filePath, oldString: 'a', newString: 'b' } });
   const patch = (body) => ({ tool_name: 'apply_patch', tool_input: { input: body } });
   const task = (command, args) => ({ tool_name: 'createAndRunTask', tool_input: { task: { label: 'x', type: 'shell', command, args } } });
-  const G = 'node "/home/u/.claude/plugins/cache/jira-fixer-kit/jira-fixer/1.0.0/skills/jira-fix/scripts/gate.js"';
+  const G = 'node "/home/u/.claude/plugins/cache/Jira-Ticket-Fixer/jira-fixer/1.0.0/skills/jira-fix/scripts/gate.js"';
   const Q = 'Approve the plan for PROJ-1?';
   const askTool = (input) => ({ tool_name: 'AskUserQuestion', tool_input: input });
 
