@@ -1,6 +1,6 @@
 # Jira Fixer
 
-[![CI](https://github.com/TheSuraj01/jira-fixer-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/TheSuraj01/jira-fixer-kit/actions/workflows/ci.yml)
+[![CI](https://github.com/TheSuraj01/Jira-Ticket-Fixer/actions/workflows/ci.yml/badge.svg)](https://github.com/TheSuraj01/Jira-Ticket-Fixer/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 A plugin for **Claude Code** and **GitHub Copilot in VS Code** that fixes Jira tickets the careful way. It investigates, proposes a minimal plan, **waits for your approval**, then implements with a regression test and checks every acceptance criterion.
